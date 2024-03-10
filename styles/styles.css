@@ -41,8 +41,7 @@ input[type="checkbox"] {
     margin-bottom: 10px;
 }
 
-input[type="submit"],
-input[type="button"] {
+input[type="submit"] {
     background-color: #4CAF50;
     color: white;
     padding: 10px 15px;
@@ -51,10 +50,22 @@ input[type="button"] {
     cursor: pointer;
     margin-right: 10px;
 }
+input[type="button"]{
+    background-color: #595c59;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px; 
+}
 
-input[type="submit"]:hover,
+input[type="submit"]:hover {
+    background-color: #143118;
+}
+
 input[type="button"]:hover {
-    background-color: #45a049;
+    background-color: #969696;
 }
 
 .form-group {
